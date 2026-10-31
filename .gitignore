@@ -1,0 +1,10 @@
+node_modules/
+release/
+logs/
+*.log
+*.streamDeckPlugin
+com.jbrick2070.vjster.sdPlugin/bin/
+com.jbrick2070.vjster.sdPlugin/logs/
+extension-dist/
+page/player.js
+page/player.js.map

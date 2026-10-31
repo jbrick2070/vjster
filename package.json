@@ -1,0 +1,39 @@
+{
+  "name": "vjster",
+  "version": "0.0.1",
+  "description": "VJster: Stream Deck control of the speed and quality of the video playing in your own browser",
+  "license": "GPL-2.0-or-later",
+  "type": "module",
+  "private": true,
+  "author": "Jeffrey A. Brick",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jbrick2070/vjster.git"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "typecheck": "tsc --noEmit",
+    "test": "npm run typecheck && vitest run"
+  },
+  "dependencies": {
+    "@elgato/streamdeck": "3.0.3",
+    "ws": "8.22.0"
+  },
+  "devDependencies": {
+    "@elgato/cli": "1.10.3",
+    "@rollup/plugin-commonjs": "28.0.9",
+    "@rollup/plugin-node-resolve": "16.0.3",
+    "@rollup/plugin-typescript": "12.3.1",
+    "@types/node": "24.19.2",
+    "@types/ws": "8.18.2",
+    "rollup": "4.65.1",
+    "tslib": "2.8.1",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3",
+    "vitest": "3.2.7"
+  }
+}
