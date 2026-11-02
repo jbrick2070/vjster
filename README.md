@@ -10,6 +10,10 @@ development are in
 Stream Deck control of the playback speed and the picture quality of the video
 playing in your own browser.
 
+![Left: the VJster keys and dials as the plugin draws them (a render of the real plugin's own key and dial images, not a photo), with the speed dial at 0.25x. Right: the clip in Chrome at the same moment, slowed to 0.25x by the VJster extension.](docs/images/vjster-hero.png)
+
+Clip in the image: ["100 metres hurdles"](https://commons.wikimedia.org/wiki/File:100_metres_hurdles.webm) by FISUTV, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/), via Wikimedia Commons; one frame, scaled.
+
 **Development moved on 2026-10-30** into the Fadester for OBS repository,
 [jbrick2070/streamdeck-fadester](https://github.com/jbrick2070/streamdeck-fadester),
 where the documents live in `docs/vjster/` and the code in `src/vjster/`
