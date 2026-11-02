@@ -1,5 +1,12 @@
 # VJster
 
+**Download VJster 0.2.0** (the Stream Deck plugin with the OBS page, and the
+Chrome extension) from the
+[Releases page](https://github.com/jbrick2070/vjster/releases). Its source and
+development are in
+[jbrick2070/streamdeck-fadester](https://github.com/jbrick2070/streamdeck-fadester)
+(`docs/vjster`); this repository keeps only the first steps, described below.
+
 Stream Deck control of the playback speed and the picture quality of the video
 playing in your own browser.
 
